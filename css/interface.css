@@ -9,3 +9,30 @@
 .white-button:active {
   background: #CF2F2F;
 }
+
+.red-button {
+  background: #C82121;
+  border: none;
+  border-radius: 20px;
+  width: 11.5vw;
+  height: 3vw;
+}
+
+.red-button:active {
+  background: #D24141;
+}
+
+.grey-button {
+  background: #000000;
+  background-image: url('../pic/Hospital_Icon.png');
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  border: none;
+  border-radius: 20px;
+  padding: 0 40px;
+  height: 3vw;
+}
+
+.grey-button:active {
+  background: #D24141;
+}

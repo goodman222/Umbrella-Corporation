@@ -1,0 +1,87 @@
+.bg-2 {
+  width: 100%;
+  height: auto;
+  background-image: url(../pic/bg-2.png);
+}
+
+.bg-2__content-container {
+  width: 85.5%;
+  height: auto;
+  margin: 80px auto 0;
+}
+
+.bg-2__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bg-2__pic-1 {
+  width: 35vw;
+}
+
+.bg-2__pic-2 {
+  width: 19.5vw;
+}
+
+.bg-2__pic-3 {
+  width: 14.7vw;
+}
+
+.right-text {
+  margin: 0 8%;
+  align-self: center;
+}
+
+.bg-2__text {
+  padding-right: 4px;
+}
+
+.red-button-box {
+  display: flex;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.bg-2__pic-4 {
+  width: 21vw;
+}
+
+.bg-2__picture-section-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-text {
+  max-width: 39%;
+  margin-left: 1.1%;
+  margin-top: 70px;
+}
+
+.bg-2__buttons-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.red-button-1 {
+  margin-top: 20px;
+}
+
+.bg-2__image-box {
+  height: 15vw;
+  border-radius: 50px;
+  background: #F5F5F5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+.bg-2__picture-section-2 {
+  margin-top: 85px;
+  margin-right: 50px;
+}
+
+.bg-2__image-box:first-of-type {
+  margin-right: 20px;
+}

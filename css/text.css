@@ -65,3 +65,41 @@
   font-size: 12px;
   font-weight: bold;
 }
+
+/* Второй экран */
+
+.bg-2__header {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  font-size: 31px;
+  color: #E02323;
+  text-transform: uppercase;
+}
+
+.bg-2__text {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  text-align: justify;
+}
+
+.red-button, .grey-button {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.bg-2__sub-header {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+}
+
+.bg-2__image-text {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+}
