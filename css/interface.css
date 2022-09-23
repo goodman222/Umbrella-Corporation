@@ -1,0 +1,11 @@
+.white-button {
+  background: #FFFFFF;
+  border: none;
+  border-radius: 15px;
+  width: 14.2vw;
+  height: 3vw;
+}
+
+.white-button:active {
+  background: #CF2F2F;
+}

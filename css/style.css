@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  }
+
+.container {
+  width: 100%;
+}
+
+.bg-1 {
+  background-image: url(../pic/HeroBG.png);
+  background-repeat: no-repeat;
+  background-position:  35%;
+  background-color: black;
+  height: 970px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-menu {
+  width: 71.46%;
+  height: 65px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  margin: 29px auto 0;
+  border: none;
+  border-radius: 15px;
+}
+
+.nav-menu__logo {
+  margin-left: 1.25%;
+}
+
+.nav-menu__vertical-line {
+  width: 0px;
+  height: 49px;
+  border-right: #C3C3C3 solid 1px;
+  margin-left: 1.25%;
+}
+
+.nav-name {
+  margin-left: 1.25%;
+}
+
+.nav-menu__item a {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  border-bottom: #C31D1D 2px solid;
+  margin-left: 5%;
+}
+
+.nav-menu__item{
+  margin-right: 1.5%;
+}
+
+
+.nav-menu__item:last-of-type {
+  margin-right: 3.5%;
+}
+
+.globe {
+  margin-left: 3.8%;
+  margin-right: 0.5%;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  /* border: red solid 2px; */
+  margin-left: 43%;
+  margin-top: 37vh;
+}
+
+.hero__button {
+  display: flex;
+  justify-content: center;
+}
+
+.white-button {
+  margin-top: 60px;
+}

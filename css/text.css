@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+/*   font-family: 'Inter', sans-serif; */
+
+
+@font-face {
+  font-family: 'Eurostile Extended';
+  src:url(../fonts/eurostile_extended/EurostileExtendedBlack.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src:url(../fonts/Orbitron/Orbitron.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.company-name {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
+  color: #000000;
+}
+
+.nav-name__name {
+  font-size: 20px;
+}
+
+.nav-name__subname {
+  font-size: 12px;
+}
+
+.nav-menu__item {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+.light-text {
+  color: #3E3E3E;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.hero__header {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #CF2F2F;
+}
+
+.hero__header span {
+  color: #FFFFFF;
+}
+
+.hero__text {
+  font-family: 'Inter', sans-serif;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.white-button {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
