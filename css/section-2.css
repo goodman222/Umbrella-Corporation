@@ -50,6 +50,8 @@
 .bg-2__picture-section-2 {
   display: flex;
   flex-direction: row;
+  margin-top: 85px;
+  margin-right: 50px;
 }
 
 .left-text {
@@ -75,11 +77,6 @@
   background: #F5F5F5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
-}
-
-.bg-2__picture-section-2 {
-  margin-top: 85px;
-  margin-right: 50px;
 }
 
 .bg-2__image-box:first-of-type {

@@ -14,8 +14,9 @@
   background: #C82121;
   border: none;
   border-radius: 20px;
-  width: 11.5vw;
-  height: 3vw;
+  padding: 0 20px;
+  width: auto;
+  height: 3.5vw;
 }
 
 .red-button:active {
@@ -30,7 +31,7 @@
   border: none;
   border-radius: 20px;
   padding: 0 40px;
-  height: 3vw;
+  height: 3.5vw;
 }
 
 .grey-button:active {
