@@ -2,6 +2,7 @@
   width: 100%;
   height: auto;
   background-image: url(../pic/bg-2.png);
+  padding-bottom: 40px;
 }
 
 .bg-2__content-container {
