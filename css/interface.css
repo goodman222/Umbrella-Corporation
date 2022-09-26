@@ -37,3 +37,21 @@
 .grey-button:active {
   background: #D24141;
 }
+
+.button-arrow {
+  background-color: #E45252;
+  height: 100%;
+  width: 100%;
+  border-radius: 0 0 30px 0;
+  border: none;
+  background-image: url('../pic/Arrow 2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button-arrow:active {
+  background: #D24141;
+  background-image: url('../pic/Arrow 2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
