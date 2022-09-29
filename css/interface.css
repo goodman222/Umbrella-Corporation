@@ -36,6 +36,9 @@
 
 .grey-button:active {
   background: #D24141;
+  background-image: url('../pic/Hospital_Icon.png');
+  background-repeat: no-repeat;
+  background-position: 15px center;
 }
 
 .button-arrow {

@@ -94,3 +94,13 @@
   width: 16.25vw;
   padding: 15px;
 }
+
+.end__container {
+  width: 62.5%;
+  margin: 119px auto 0;
+}
+
+.end__button-box {
+  display: flex;
+  justify-content: center;
+}

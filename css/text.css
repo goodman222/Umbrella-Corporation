@@ -126,3 +126,49 @@
   text-align: justify;
   color: #000000;
 }
+
+.end__sub-header {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  color: #CE1515;
+}
+
+.end__header {
+  font-family: 'Inter', sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  color: #000000;
+}
+
+
+.footer__name {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 27px;
+  font-weight: 900;
+  color: #FFFFFF;
+}
+
+
+.footer__subname {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  color: #FFFFFF;
+}
+
+.footer__item a {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.under-footer__item a, .contry__item {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+}
