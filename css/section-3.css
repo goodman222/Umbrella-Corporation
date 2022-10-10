@@ -104,3 +104,10 @@
   display: flex;
   justify-content: center;
 }
+
+.news-block__row-item {
+  display: flex;
+  flex-flow: row;
+  flex-basis: 48%;
+  justify-content: space-between;
+}
