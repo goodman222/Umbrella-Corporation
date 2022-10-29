@@ -37,21 +37,35 @@ html, body {
   margin: 29px auto 0;
   border: none;
   border-radius: 15px;
+  padding-right: 10px;
 }
 
-.nav-menu__logo {
-  margin-left: 1.25%;
+  .burger__items-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+  .nav-menu__logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+  .nav-menu__logo {
+    margin-left: 1.25vw;
 }
 
 .nav-menu__vertical-line {
   width: 0px;
   height: 49px;
   border-right: #C3C3C3 solid 1px;
-  margin-left: 1.25%;
+  margin-left: 1.25vw;
 }
 
 .nav-name {
-  margin-left: 1.25%;
+  margin-left: 1.25vw;
 }
 
 .nav-menu__item a {
@@ -73,8 +87,17 @@ html, body {
   margin-right: 3.5%;
 }
 
+.nav-menu__language {
+  width: 13%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
 .globe {
-  margin-left: 3.8%;
+  /* margin-left: 3.8%; */
   margin-right: 0.5%;
 }
 

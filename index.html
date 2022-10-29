@@ -14,54 +14,65 @@
     <link rel="stylesheet" href="./css/section-2-adaptive.css">
     <link rel="stylesheet" href="./css/section-3-adaptive.css">
     <link rel="stylesheet" href="./css/footer-adaptive.css">
+    <link rel="stylesheet" href="./css/menu-burger.css">
     <title>Umbrella Corporation</title>
   </head>
   <body>
     <div class="container">
       <div class="bg-1">
+        <a name="home"></a>
         <!-- Панель навигации -->
         <div class="nav-menu">
-          <div class="nav-menu__logo">
-            <img src="./pic/logo1.png" alt="">
-          </div>
-          <div class="nav-menu__vertical-line">
-          </div>
-          <div class="nav-name">
-            <div class="nav-name__name company-name">
-              UMBRELLA
-            </div>
-            <div class="nav-name__subname company-name">
-              corporation
-            </div>
-          </div>
-            <div class="nav-menu__item active">
-              <a href="index.html">Home</a>
-            </div>
-            <div class="nav-menu__item">
-            <a href="#">About</a>
-            </div>
-            <div class="nav-menu__item">
-              <a href="#">Products</a>
-            </div>
-            <div class="nav-menu__item">
-              <a href="#">Science</a>
-            </div>
-            <div class="nav-menu__item">
-              <a href="#">News</a>
-            </div>
-            <div class="nav-menu__item">
-              <a href="#">Contacts</a>
-            </div>
-            <div class="nav-menu__pic">
-              <img src="./pic/loop.png" alt="">
+          <div class="nav-menu__logo-container">
+            <div class="nav-menu__logo">
+              <img src="./pic/logo1.png" alt="">
             </div>
             <div class="nav-menu__vertical-line">
             </div>
-            <div class="nav-menu__pic globe">
-              <img src="./pic/globe.png" alt="">
+            <div class="nav-name">
+              <div class="nav-name__name company-name">
+                UMBRELLA
+              </div>
+              <div class="nav-name__subname company-name">
+                corporation
+              </div>
             </div>
-            <div class="nav-menu__item light-text">
-              English
+          </div>
+            <div class="burger__button">
+              <span></span>
+            </div>
+            <div class="burger__items-container">
+              <div class="nav-menu__item active">
+                <a href="index.html">Home</a>
+              </div>
+              <div class="nav-menu__item">
+              <a href="#about">About</a>
+              </div>
+              <div class="nav-menu__item">
+                <a href="#products">Products</a>
+              </div>
+              <div class="nav-menu__item">
+                <a href="#science">Science</a>
+              </div>
+              <div class="nav-menu__item">
+                <a href="#news">News</a>
+              </div>
+              <div class="nav-menu__item">
+                <a href="#contacts">Contacts</a>
+              </div>
+              <div class="nav-menu__pic">
+                <img src="./pic/loop.png" alt="">
+              </div>
+              <div class="nav-menu__vertical-line">
+              </div>
+              <div class="nav-menu__language">
+                <div class="nav-menu__pic globe">
+                  <img src="./pic/globe.png" alt="">
+                </div>
+                <div class="nav-menu__item light-text">
+                  English
+                </div>
+              </div>
             </div>
         </div>
       <!--/Панель навигации  -->
@@ -83,6 +94,7 @@
 
       <!-- Второй экран -->
       <div class="bg-2">
+        <a name="about"></a>
         <div class="bg-2__content-container">
           <div class="bg-2__row">
             <div class="bg-2__picture-section-1">
@@ -146,6 +158,7 @@
       </div>
       <!-- /второй экран -->
       <!-- Темные картинки -->
+      <a name="products"></a>
       <div class="picture-container">
         <img src="./pic/Umberline2.png" class="big-picture" alt="">
       </div>
@@ -156,6 +169,7 @@
       <div class="bg-3">
         <!-- lABORATORY -->
         <div class="laboratory__container">
+          <a name="science"></a>
           <div class="laboratory__content">
             <div class="laboratory__text">
               <div class="laboratory__logo">
@@ -179,6 +193,7 @@
         </div>
         <!-- /lABORATORY -->
         <!-- News -->
+        <a name="news"></a>
         <div class="news__container">
           <div class="rubric">
             <div class="rubric__active-item">
@@ -252,6 +267,7 @@
           </div>
         </div>
         <div class="end__container">
+          <a name="contacts"></a>
           <div class="end__sub-header">
             CorVax-HT1
           </div>
@@ -347,5 +363,6 @@
           </div>
         </footer>
     </div> <!--/container-->
+    <script src="./js/burger.js"></script>
   </body>
 </html>
